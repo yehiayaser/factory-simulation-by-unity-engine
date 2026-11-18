@@ -2,7 +2,17 @@
 
 An interactive 3D Unity demo that follows one wooden sheet through a cutting station, a manual assembly bench, and a finished-speaker station.
 
-## Controls
+[![Factory Simulation showing a finished cabinet at the output station](Videos/factory-preview.png)](Videos/factory-demo.mp4)
+
+[Watch the full production cycle (MP4)](Videos/factory-demo.mp4)
+
+## Run the Windows build
+
+1. On a **64-bit Windows** PC, sign in to GitHub with access to this repository and choose **Code → Download ZIP**, or clone it with Git.
+2. Extract the ZIP. Open the [Build/Windows](Build/Windows) folder and run `Factory Simulation.exe`. Keep the executable, its `Factory Simulation_Data` folder, and the DLLs together.
+3. In the simulation, select **Start** to run the first batch. The cycle stops when the cabinet reaches the output station. Press **Alt+F4** to close the Windows app.
+
+Unity is required only for opening or editing the source project.
 
 | Control | Action |
 | --- | --- |
@@ -34,9 +44,11 @@ To rebuild the player, open **File → Build Settings**, select **Windows, Mac, 
 | Folder | Contents |
 | --- | --- |
 | [UnityProject](UnityProject) | Editable Unity assets, package manifests, and project settings |
+| [Build/Windows](Build/Windows) | Ready-to-run 64-bit Windows build |
+| [Videos](Videos) | Full demonstration and a preview image |
 
 ## التشغيل والفكرة بالعربي
 
-افتح مجلد UnityProject في Unity Hub بإصدار 2021.3.12f1، ثم افتح مشهد FactorySimulation واضغط Play وبعدها Start.
+حمّل المستودع من **Code → Download ZIP** وفك الضغط. افتح مجلد `Build/Windows` وشغّل `Factory Simulation.exe`، ثم اضغط **Start**. سيب ملفات التشغيل جنب البرنامج داخل نفس المجلد.
 
 المصنع بيقسّم لوح خشب **٣ × ٣ متر** إلى ثلاث قطع **١ × ٣ متر**. بعد النقل، ثلاثة عمال بيلزقوا القطع بالغراء عشان يعملوا واجهة السماعة وجانبيها. عند وصولها لمحطة الخروج، عدّاد الإنتاج بيزيد واحد. لتعديل المشهد، افتح مجلد `UnityProject` في Unity Hub بإصدار **2021.3.12f1**.

@@ -9,3 +9,4 @@
 *.mp4 binary
 *.dll binary
 *.exe binary
+/Build/Windows/** -text
