@@ -1,0 +1,16 @@
+# Unity-generated files
+/UnityProject/[Ll]ibrary/
+/UnityProject/[Tt]emp/
+/UnityProject/[Oo]bj/
+/UnityProject/[Ll]ogs/
+/UnityProject/[Uu]ser[Ss]ettings/
+/UnityProject/[Bb]uild/
+/UnityProject/[Bb]uilds/
+/UnityProject/.vs/
+/UnityProject/.idea/
+/UnityProject/*.csproj
+/UnityProject/*.sln
+
+# Local OS files
+Thumbs.db
+.DS_Store
